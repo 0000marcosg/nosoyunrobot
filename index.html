@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <script type="text/javascript">
+    function redirect(){
+    var pag;
+    var pMax = 14;
+    pag = Math.floor(Math.random()*(1-pMax))+pMax;
+    var redirect = window.open("html/"+pag + ".html", "_self");
+  }
+</script>
+<style media="screen">
+  form
+   {
+     background-color: yellow;
+     font-family: 'Inconsolata', monospace;
+   }
+
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+a {
+    font-family: "Lucida console", monospace;
+}
+
+#textos{
+  padding-bottom: 20px;
+}
+
+</style>
+<title>No soy un Robot</title>
+  </head>
+  <body>
+    <img src="cover.jpg"  alt="Mihaly Cover" class="center" style="padding-top: 30px;">
+    <div id="textos" class="center"><a> ///////////////////////////////////////////</a></div>
+    <div id="textos" class="center"><a>  Este es el primer disco de Mihaly Meszaros </a></div>
+    <div id="textos" class="center"><a href="popup.html" onclick="javascript:void window.open('popup.html','1532104996616','width=380,height=750,toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=0,left=0,top=0');return false;">Lo puede escuchar on-line</a></div>
+    <div id="textos" class="center"><a href="#" onclick="redirect()">Mientras recorre esta experiencia</a></div>
+    <div id="textos" class="center"><a> ///////////////////////////////////////////</a></div>
+    <div id="textos" class="center"><a href="NoSoyUnRobot_MihalyMeszaros.zip" onclick="redirect()"> Y luego descargarlo aqui</a></div>
+    <div id="textos" class="center"><a> ///////////////////////////////////////////</a></div>
+    <div id="textos" class="center"><a href="http://www.colectivomihalymeszaros.com">Atte. Mihaly Meszaros</a></div>
+  </body>
+</html>
